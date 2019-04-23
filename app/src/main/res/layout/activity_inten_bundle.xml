@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    tools:context=".IntenBundleActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ivFotoku"
+        android:layout_gravity="center"
+        android:src="@drawable/ajii"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20dp"
+        android:text="Nama : Ahmad Aji Nursetyawan"
+        android:gravity="center"
+        android:id="@+id/tvNamaku"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20dp"
+        android:text="NPM : 16670003"
+        android:gravity="center"
+        android:id="@+id/tvNpm"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20dp"
+        android:text="Kelas : Informatika 6A"
+        android:gravity="center"
+        android:id="@+id/tvKelas"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20dp"
+        android:text="IG : kak.ajisetyawan"
+        android:gravity="center"
+        android:id="@+id/tvIg"
+        android:layout_marginTop="8dp"
+        />
+</LinearLayout>
